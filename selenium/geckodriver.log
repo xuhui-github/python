@@ -1,0 +1,271 @@
+1607671947554	geckodriver	INFO	geckodriver 0.20.1
+1607671947557	geckodriver	INFO	Listening on 127.0.0.1:58109
+1607671948576	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.3IC3wJrbyo3z"
+1607671949122	Marionette	TRACE	Marionette enabled
+1607671949198	Marionette	TRACE	Received observer notification toplevel-window-ready
+1607671950712	Marionette	TRACE	Received observer notification marionette-startup-requested
+1607671950712	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1607671950727	Marionette	TRACE	All scripts recorded.
+1607671950728	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1607671950728	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1607671950728	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1607671950729	Marionette	DEBUG	Setting recommended pref browser.tabs.remote.separatePrivilegedContentProcess to false
+1607671950729	Marionette	DEBUG	Setting recommended pref browser.tabs.unloadOnLowMemory to false
+1607671950729	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1607671950730	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1607671950730	Marionette	DEBUG	Setting recommended pref dom.push.connection.enabled to false
+1607671950730	Marionette	DEBUG	Setting recommended pref extensions.getAddons.discovery.api_url to data:, 
+1607671950730	Marionette	DEBUG	Setting recommended pref privacy.trackingprotection.enabled to false
+1607671950730	Marionette	DEBUG	Setting recommended pref security.certerrors.mitm.priming.enabled to false
+1607671950732	Marionette	INFO	Listening on port 34323
+1607671950732	Marionette	DEBUG	Marionette is listening
+1607671950803	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:48380
+1607671950811	Marionette	DEBUG	0 -> [0,1,"newSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1607671950811	Marionette	DEBUG	0 <- [1,1,{"error":"unknown command","message":"newSession","stacktrace":"WebDriverError@chrome://marionette/content/error.js:181: ... t@chrome://marionette/content/server.js:241:9\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:504:20\n"},null]
+JavaScript warning: https://static.zhihu.com/heifetz/main.zswsdid.650fd09d164088e95be9.js, line 1: WebGL context was lost.
+JavaScript warning: https://static.zhihu.com/heifetz/main.zswsdid.650fd09d164088e95be9.js, line 1: WebGL context was lost.
+JavaScript warning: https://static.zhihu.com/heifetz/main.zswsdid.650fd09d164088e95be9.js, line 1: WebGL context was lost.
+JavaScript warning: https://static.zhihu.com/heifetz/main.zswsdid.650fd09d164088e95be9.js, line 1: WebGL context was lost.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1607672482632	geckodriver	INFO	geckodriver 0.20.1
+1607672482636	geckodriver	INFO	Listening on 127.0.0.1:48047
+1607672483655	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.LhL48gsnGSnw"
+1607672484132	Marionette	TRACE	Marionette enabled
+1607672484207	Marionette	TRACE	Received observer notification toplevel-window-ready
+1607672485790	Marionette	TRACE	Received observer notification marionette-startup-requested
+1607672485791	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1607672485808	Marionette	TRACE	All scripts recorded.
+1607672485808	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1607672485809	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1607672485809	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1607672485810	Marionette	DEBUG	Setting recommended pref browser.tabs.remote.separatePrivilegedContentProcess to false
+1607672485810	Marionette	DEBUG	Setting recommended pref browser.tabs.unloadOnLowMemory to false
+1607672485810	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1607672485810	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1607672485810	Marionette	DEBUG	Setting recommended pref dom.push.connection.enabled to false
+1607672485810	Marionette	DEBUG	Setting recommended pref extensions.getAddons.discovery.api_url to data:, 
+1607672485811	Marionette	DEBUG	Setting recommended pref privacy.trackingprotection.enabled to false
+1607672485811	Marionette	DEBUG	Setting recommended pref security.certerrors.mitm.priming.enabled to false
+1607672485813	Marionette	INFO	Listening on port 33965
+1607672485813	Marionette	DEBUG	Marionette is listening
+1607672485883	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:33350
+1607672485894	Marionette	DEBUG	0 -> [0,1,"newSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1607672485894	Marionette	DEBUG	0 <- [1,1,{"error":"unknown command","message":"newSession","stacktrace":"WebDriverError@chrome://marionette/content/error.js:181: ... t@chrome://marionette/content/server.js:241:9\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:504:20\n"},null]
+JavaScript warning: https://static.zhihu.com/heifetz/main.zswsdid.650fd09d164088e95be9.js, line 1: WebGL context was lost.
+JavaScript warning: https://static.zhihu.com/heifetz/main.zswsdid.650fd09d164088e95be9.js, line 1: WebGL context was lost.
+JavaScript warning: https://static.zhihu.com/heifetz/main.zswsdid.650fd09d164088e95be9.js, line 1: WebGL context was lost.
+JavaScript warning: https://static.zhihu.com/heifetz/main.zswsdid.650fd09d164088e95be9.js, line 1: WebGL context was lost.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1607672659886	geckodriver	INFO	geckodriver 0.20.1
+1607672659900	geckodriver	INFO	Listening on 127.0.0.1:50493
+1607672660908	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-profile" "/tmp/rust_mozprofile.5Z3mx8Xp6a2h"
+1607672661414	Marionette	TRACE	Marionette enabled
+1607672661492	Marionette	TRACE	Received observer notification toplevel-window-ready
+1607672663106	Marionette	TRACE	Received observer notification marionette-startup-requested
+1607672663107	Marionette	TRACE	Waiting until startup recorder finished recording startup scripts...
+1607672663123	Marionette	TRACE	All scripts recorded.
+1607672663123	Marionette	DEBUG	Setting recommended pref app.update.disabledForTesting to true
+1607672663124	Marionette	DEBUG	Setting recommended pref browser.contentblocking.introCount to 99
+1607672663124	Marionette	DEBUG	Setting recommended pref browser.newtabpage.enabled to false
+1607672663125	Marionette	DEBUG	Setting recommended pref browser.tabs.remote.separatePrivilegedContentProcess to false
+1607672663125	Marionette	DEBUG	Setting recommended pref browser.tabs.unloadOnLowMemory to false
+1607672663125	Marionette	DEBUG	Setting recommended pref datareporting.policy.dataSubmissionPolicyAccepted to false
+1607672663125	Marionette	DEBUG	Setting recommended pref dom.disable_beforeunload to true
+1607672663125	Marionette	DEBUG	Setting recommended pref dom.push.connection.enabled to false
+1607672663126	Marionette	DEBUG	Setting recommended pref extensions.getAddons.discovery.api_url to data:, 
+1607672663126	Marionette	DEBUG	Setting recommended pref privacy.trackingprotection.enabled to false
+1607672663126	Marionette	DEBUG	Setting recommended pref security.certerrors.mitm.priming.enabled to false
+1607672663127	Marionette	INFO	Listening on port 38055
+1607672663128	Marionette	DEBUG	Marionette is listening
+1607672663230	Marionette	DEBUG	Accepted connection 0 from 127.0.0.1:54936
+1607672663237	Marionette	DEBUG	0 -> [0,1,"newSession",{"acceptInsecureCerts":true,"browserName":"firefox","capabilities":{"desiredCapabilities":{"acceptInsecureCerts":true,"browserName":"firefox"}}}]
+1607672663238	Marionette	DEBUG	0 <- [1,1,{"error":"unknown command","message":"newSession","stacktrace":"WebDriverError@chrome://marionette/content/error.js:181: ... t@chrome://marionette/content/server.js:241:9\n_onJSONObjectReady/<@chrome://marionette/content/transport.js:504:20\n"},null]
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1607684968800	geckodriver	INFO	Listening on 127.0.0.1:55783
+1607684968803	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilePSR6sr"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607684970970	Marionette	INFO	Listening on port 43631
+1607684971036	Marionette	WARN	TLS certificate errors will be ignored for this session
+1607684972869	Marionette	INFO	Stopped listening on port 43631
+1607685373586	geckodriver	INFO	Listening on 127.0.0.1:52085
+1607685373589	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileHVskSU"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607685375941	Marionette	INFO	Listening on port 39445
+1607685376032	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 726))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 376))
+1607685445343	geckodriver	INFO	Listening on 127.0.0.1:57115
+1607685445347	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiled03N5h"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607685447564	Marionette	INFO	Listening on port 40795
+1607685447686	Marionette	WARN	TLS certificate errors will be ignored for this session
+1607685472937	geckodriver	INFO	Listening on 127.0.0.1:49089
+1607685472940	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileyne4Gv"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607685475278	Marionette	INFO	Listening on port 39785
+1607685475391	Marionette	WARN	TLS certificate errors will be ignored for this session
+1607685478294	Marionette	INFO	Stopped listening on port 39785
+console.warn: services.settings: main/whats-new-panel sync interrupted by shutdown
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1607688857967	geckodriver	INFO	Listening on 127.0.0.1:43439
+1607688857970	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilercBPkY"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607688860092	Marionette	INFO	Listening on port 36451
+1607688860196	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 726))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 376))
+1607689166402	geckodriver	INFO	Listening on 127.0.0.1:44809
+1607689166406	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilesJHqtc"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607689168731	Marionette	INFO	Listening on port 40975
+1607689168840	Marionette	WARN	TLS certificate errors will be ignored for this session
+1607689219638	geckodriver	INFO	Listening on 127.0.0.1:44405
+1607689219641	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilemQ6AXi"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607689221971	Marionette	INFO	Listening on port 37323
+1607689222084	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 726))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 376))
+1607689282345	geckodriver	INFO	Listening on 127.0.0.1:41001
+1607689282354	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile3vFFyb"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607689284668	Marionette	INFO	Listening on port 43167
+1607689284782	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://dss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/js/sbase-0948aa26f1.js, line 70: Error: load css timeout : https://dss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superui/css/ubase_9376fdcf.css
+JavaScript warning: https://www.koodomobile.com/sites/all/modules/contrib/jquery_update/replace/jquery/1.9/jquery.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript error: https://www.koodomobile.com/phones?INTCMP=KMNew_NavMenu_Shop_Phones, line 2152: ReferenceError: google is not defined
+1607690342409	geckodriver	INFO	Listening on 127.0.0.1:34891
+1607690342412	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileAJ1s9k"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607690344874	Marionette	INFO	Listening on port 38823
+1607690344941	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 726))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 376))
+1607690381723	Marionette	INFO	Stopped listening on port 38823
+1607690478248	geckodriver	INFO	Listening on 127.0.0.1:32907
+1607690478251	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileuyDHH3"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607690480647	Marionette	INFO	Listening on port 36091
+1607690480678	Marionette	WARN	TLS certificate errors will be ignored for this session
+1607690483170	Marionette	INFO	Stopped listening on port 36091
+1607690605632	geckodriver	INFO	Listening on 127.0.0.1:35755
+1607690605635	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilextzrnl"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607690608113	Marionette	INFO	Listening on port 40451
+1607690608171	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 726))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 376))
+1607690613539	Marionette	INFO	Stopped listening on port 40451
+1607690659736	geckodriver	INFO	Listening on 127.0.0.1:37085
+1607690659740	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilejyuDrj"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607690662285	Marionette	INFO	Listening on port 40109
+1607690662375	Marionette	WARN	TLS certificate errors will be ignored for this session
+1607690664981	Marionette	INFO	Stopped listening on port 40109
+JavaScript error: https://magento.com/products/magento-open-source line 1551 > injectedScript, line 4: TypeError: window.optimizely is undefined
+JavaScript error: https://assets.adobedtm.com/launch-EN919758db9a654a17bac7d184b99c4820.min.js, line 3: TypeError: getComputedStyle(...) is null
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.child3/domwalker24, type cancelPick failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:280:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ncancelPick@resource://devtools/client/fronts/walker.js:617:18\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:57:25\n_onInspectorFrontDestroyed@resource://devtools/client/inspector/node-picker.js:112:18\n_emit@resource://devtools/shared/event-emitter.js:226:34\nemit@resource://devtools/shared/event-emitter.js:172:18\nemit@resource://devtools/shared/event-emitter.js:324:18\nunmanage@resource://devtools/shared/protocol/Front.js:160:37\ndestroy@resource://devtools/shared/protocol/Pool.js:167:14\ndestroy@resource://devtools/shared/protocol/Front.js:65:11\ndestroy@resource://devtools/client/fronts/inspector.js:104:11\n_destroyTarget@resource://devtools/client/fronts/targets/target-mixin.js:664:17\n", "resource://devtools/shared/protocol/Front.js", 101))
+JavaScript error: https://cdn.optimizely.com/js/5936060.js, line 60: NS_ERROR_NOT_INITIALIZED: 
+JavaScript error: https://static.hotjar.com/c/hotjar-597575.js?sv=7, line 3: NS_ERROR_NOT_INITIALIZED: 
+1607691162504	Marionette	INFO	Stopped listening on port 43167
+console.warn: "Async method failed in safeAsyncMethod" (new Error("Connection closed, pending request to server0.conn0.child3/domwalker87, type cancelPick failed\n\nRequest stack:\nrequest@resource://devtools/shared/protocol/Front.js:280:14\ngenerateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19\ncancelPick@resource://devtools/client/fronts/walker.js:617:18\nexports.safeAsyncMethod/<@resource://devtools/shared/async-utils.js:57:25\n_onInspectorFrontDestroyed@resource://devtools/client/inspector/node-picker.js:112:18\n_emit@resource://devtools/shared/event-emitter.js:226:34\nemit@resource://devtools/shared/event-emitter.js:172:18\nemit@resource://devtools/shared/event-emitter.js:324:18\nunmanage@resource://devtools/shared/protocol/Front.js:160:37\ndestroy@resource://devtools/shared/protocol/Pool.js:167:14\ndestroy@resource://devtools/shared/protocol/Front.js:65:11\ndestroy@resource://devtools/client/fronts/inspector.js:104:11\n_destroyTarget@resource://devtools/client/fronts/targets/target-mixin.js:664:17\n", "resource://devtools/shared/protocol/Front.js", 101))
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+
+###!!! [Parent][MessageChannel] Error: (msgtype=0x1F0011,name=PBackgroundStorage::Msg_Observe) Channel error: cannot send/recv
+
+1607696261167	Marionette	INFO	Stopped listening on port 36451
+1607698537309	Marionette	INFO	Stopped listening on port 37323
+1607698543134	Marionette	INFO	Stopped listening on port 40975
+1607706583592	geckodriver	INFO	Listening on 127.0.0.1:48097
+1607706583603	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilejaOcKA"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607706586146	Marionette	INFO	Listening on port 36807
+1607706586305	Marionette	WARN	TLS certificate errors will be ignored for this session
+1607706587884	Marionette	INFO	Stopped listening on port 36807
+1607706613644	geckodriver	INFO	Listening on 127.0.0.1:36139
+1607706613647	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilewO1XpH"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607706616153	Marionette	INFO	Listening on port 39665
+1607706616290	Marionette	WARN	TLS certificate errors will be ignored for this session
+1607706619593	Marionette	INFO	Stopped listening on port 39665
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1607706774548	geckodriver	INFO	Listening on 127.0.0.1:53503
+1607706774551	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilelznVZD"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607706776876	Marionette	INFO	Listening on port 38665
+1607706776979	Marionette	WARN	TLS certificate errors will be ignored for this session
+1607706781753	Marionette	INFO	Stopped listening on port 38665
+1607706796192	geckodriver	INFO	Listening on 127.0.0.1:56293
+1607706796195	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilefxx4ct"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607706798530	Marionette	INFO	Listening on port 34523
+1607706798634	Marionette	WARN	TLS certificate errors will be ignored for this session
+1607706804358	Marionette	INFO	Stopped listening on port 34523
+1607706899422	geckodriver	INFO	Listening on 127.0.0.1:59525
+1607706899426	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "--marionette" "--headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile89r5aN"
+*** You are running in headless mode.
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1607706901455	Marionette	INFO	Listening on port 44993
+1607706901561	Marionette	WARN	TLS certificate errors will be ignored for this session
+1607706906485	Marionette	INFO	Stopped listening on port 44993
