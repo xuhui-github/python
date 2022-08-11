@@ -17,5 +17,5 @@ def get_weather(query):
     return weather
 
 weather=get_weather("London,UK");
-print weather
+print( weather)
 
