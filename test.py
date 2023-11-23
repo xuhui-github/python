@@ -1,3 +1,4 @@
+
 class MyError(Exception): pass
 
 def stuff(file):
