@@ -1,4 +1,5 @@
 #!/usr/bin/python
+import os
 
 class WeirdInt(int):
     def __add__(self,other):
@@ -16,4 +17,4 @@ w=WeirdInt(3)
 y=WeirdInt(2)
 print w+y
 w.do_this()
-w.do_that()
+iw.do_that()

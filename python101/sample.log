@@ -1,0 +1,5 @@
+ERROR:root:An error has happened!
+ERROR:ex:Error!
+Traceback (most recent call last):
+  File "<stdin>", line 7, in <module>
+RuntimeError
