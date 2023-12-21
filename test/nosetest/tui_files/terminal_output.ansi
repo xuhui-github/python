@@ -1,0 +1,113 @@
+[1m============================ test session starts ============================[0m
+platform linux -- Python 3.8.10, pytest-7.1.2, pluggy-1.0.0 -- /usr/bin/python3
+cachedir: .pytest_cache
+metadata: {'Python': '3.8.10', 'Platform': 'Linux-5.15.0-91-generic-x86_64-with-glibc2.29', 'Packages': {'pytest': '7.1.2', 'pluggy': '1.0.0'}, 'Plugins': {'Faker': '18.3.1', 'typeguard': '2.13.3', 'anyio': '3.6.1', 'metadata': '2.0.4', 'tui': '2.1.0'}, 'JAVA_HOME': '/home/xuhui/jdk1.8.0_331'}
+rootdir: /home/xuhui/python/test/nosetest
+plugins: Faker-18.3.1, typeguard-2.13.3, anyio-3.6.1, metadata-2.0.4, tui-2.1.0
+[1mcollecting ... 
+[0m[1mcollected 16 items                                                          [0m
+
+test_module01.py::test_case01 [32mPASSED[0m[33m                                  [  6%][0m
+test_module02.py::TestClass01::test_case01 [32mPASSED[0m[33m                     [ 12%][0m
+test_module03.py::TestClass02::test_case01 [32mPASSED[0m[33m                     [ 18%][0m
+test_module03.py::TestClass02::test_case02 [32mPASSED[0m[33m                     [ 25%][0m
+test_module04.py::test_case01 [32mPASSED[0m[33m                                  [ 31%][0m
+test_module04.py::test_case02 [32mPASSED[0m[33m                                  [ 37%][0m
+test_module04.py::test_case03 [32mPASSED[0m[33m                                  [ 43%][0m
+test_module05.py::test_case01 [32mPASSED[0m[33m                                  [ 50%][0m
+test_module05.py::test_case02 [32mPASSED[0m[33m                                  [ 56%][0m
+test_module06.py::test_case01 [32mPASSED[0m[33m                                  [ 62%][0m
+test_module06.py::test_case02 [32mPASSED[0m[33m                                  [ 68%][0m
+test_module06.py::test_case03 [32mPASSED[0m[33m                                  [ 75%][0m
+test_module06.py::test_case04 [32mPASSED[0m[33m                                  [ 81%][0m
+test_module07.py::test_case01 [32mPASSED[0m[33m                                  [ 87%][0m
+test_module07.py::test_case02 [32mPASSED[0m[33m                                  [ 93%][0m
+test_module10.py::test_case01 [32mPASSED[0m[33m                                  [100%][0m
+
+[33m============================= warnings summary ==============================[0m
+../../../.local/lib/python3.8/site-packages/nose/importer.py:12
+  /home/xuhui/.local/lib/python3.8/site-packages/nose/importer.py:12: DeprecationWarning: the imp module is deprecated in favour of importlib; see the module's documentation for alternative uses
+    from imp import find_module, load_module, acquire_lock, release_lock
+
+test_module05.py::test_case02
+  /home/xuhui/python/test/nosetest/test_module05.py:12: DeprecationWarning: Please use assertEqual instead.
+    assert_equals(2+2, 5)
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+================================== PASSES ===================================
+[32m[1m__________________________ TestClass01.test_case01 __________________________[0m
+--------------------------- Captured stdout call ----------------------------
+In test_case01()
+Creating object :mymathlib
+Destroying object :mymathlib
+[32m[1m__________________________ TestClass02.test_case01 __________________________[0m
+--------------------------- Captured stdout setup ---------------------------
+In setUpModule()...
+Creating object :mymathlib
+--------------------------- Captured stdout call ----------------------------
+In test_case01()
+[32m[1m__________________________ TestClass02.test_case02 __________________________[0m
+--------------------------- Captured stdout call ----------------------------
+In test_case02()
+------------------------- Captured stdout teardown --------------------------
+In tearDownModule()...
+Destroying object :mymathlib
+[32m[1m________________________________ test_case01 ________________________________[0m
+--------------------------- Captured stdout setup ---------------------------
+
+In setUpModule()...
+
+setup_function()...
+--------------------------- Captured stdout call ----------------------------
+In test_case01()...
+------------------------- Captured stdout teardown --------------------------
+
+teardown_function()...
+[32m[1m________________________________ test_case02 ________________________________[0m
+--------------------------- Captured stdout setup ---------------------------
+
+setup_function()...
+--------------------------- Captured stdout call ----------------------------
+In test_case02()...
+------------------------- Captured stdout teardown --------------------------
+
+teardown_function()...
+[32m[1m________________________________ test_case03 ________________________________[0m
+--------------------------- Captured stdout setup ---------------------------
+
+setup_function()...
+
+setup_function()...
+--------------------------- Captured stdout call ----------------------------
+In test_case03()...
+------------------------- Captured stdout teardown --------------------------
+
+teardown_function()...
+
+teardown_function()...
+
+In tearDownModule()...
+[32m[1m________________________________ test_case01 ________________________________[0m
+--------------------------- Captured stdout call ----------------------------
+In test_case01()...
+[32m[1m________________________________ test_case02 ________________________________[0m
+--------------------------- Captured stdout call ----------------------------
+In test_case02()...
+========================== short test summary info ==========================
+PASSED test_module01.py::test_case01
+PASSED test_module02.py::TestClass01::test_case01
+PASSED test_module03.py::TestClass02::test_case01
+PASSED test_module03.py::TestClass02::test_case02
+PASSED test_module04.py::test_case01
+PASSED test_module04.py::test_case02
+PASSED test_module04.py::test_case03
+PASSED test_module05.py::test_case01
+PASSED test_module05.py::test_case02
+PASSED test_module06.py::test_case01
+PASSED test_module06.py::test_case02
+PASSED test_module06.py::test_case03
+PASSED test_module06.py::test_case04
+PASSED test_module07.py::test_case01
+PASSED test_module07.py::test_case02
+PASSED test_module10.py::test_case01
+[33m====================== [32m16 passed[0m, [33m[1m2 warnings[0m[33m in 0.72s[0m[33m =======================[0m
