@@ -1,3 +1,4 @@
+
 def print_params_3(**params):
     print(params.__class__.__name__)
     print(params)
@@ -44,8 +45,8 @@ def print_params(*params):
 def print_params_2(title,*params):
     print(title)
     print(params)
-def in_the_middle(x,*y,z=7):
-    print(x,y,z)
+#def in_the_middle(x,*y,z=7):
+#   print(x,y,z)
 def in_the_middle(x,*y,**kwargs):
     print(x,y,kwargs)
 
@@ -66,7 +67,6 @@ print_params("Test")
 print_params("just","a","test")
 print_params_2('Params:',1,2,3)
 print_params_2('Nothing')
-printx
 printx(x=2)
 vals=initdb('localhost','xuhui','flower','employees')
 print(vals)
