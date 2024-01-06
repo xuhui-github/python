@@ -1,14 +1,6 @@
 
 
-import os
-import sys
-from typing import Counter
-import mysqlx 
-import mysql.connector
-import flask
-import bottle
-
-mysql.connector.connect()
+import MySQLdb
 con = MySQLdb.connect('localhost','xuhui','flower','employees')
 cur=con.cursor();
 count = cur.execute('select * from employees limit 10')

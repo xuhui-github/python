@@ -1,4 +1,4 @@
-import mysqlx
+import mysqlx.connection
 from config import connect_args
 
 db = mysqlx.get_session(
@@ -10,4 +10,5 @@ print("Retrieving default schema")
 schema = db.get_default_schema()
 print("Schema name: {0}".format(schema.name))
 
+print("ok")
 db.close()
