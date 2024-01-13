@@ -62,4 +62,5 @@ result = con.executemany(str(ins), inventory_list)
 #result= con.executemany(str(ins),[item.values() for item in inventory_list])
 #cur = con.cursor()
 #result = cur.executemany(str(ins),inventory_list)
-con.commit()
+con.commit()
+

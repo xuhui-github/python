@@ -1,5 +1,3 @@
-
-
 import MySQLdb
 con = MySQLdb.connect('localhost','xuhui','flower','employees')
 cur=con.cursor();
