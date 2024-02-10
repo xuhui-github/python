@@ -1,13 +1,13 @@
 import mysql.connector
 
 connect_args = {
-        'host': '127.0.0.1',
-        'port': 3306,
-        'user': 'pyuser',
-        'password': 'Py@pp4Demo',
-        };
+    "host": "127.0.0.1",
+    "port": 3306,
+    "user": "pyuser",
+    "password": "Py@pp4Demo",
+}
 
-db1 = mysql.connector.connect( **connect_args)
+db1 = mysql.connector.connect(**connect_args)
 
 print("MySQL connection ID for db1: {0}".format(db1.connection_id))
 db1.close()
@@ -26,7 +26,3 @@ db4.config(**connect_args)
 db4.connect()
 print("MySQL connection ID for db4: {0}".format(db4.connection_id))
 db4.close()
-
-
-
-

@@ -1,4 +1,5 @@
 from jinja2 import Template
+
 text = """
 {% set x = 10 %}
 {{ x }}

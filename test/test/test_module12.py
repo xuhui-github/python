@@ -1,6 +1,7 @@
 import sys
 import unittest
 
+
 class TestClass13(unittest.TestCase):
 
     @unittest.skip("demonstrating unconditional skipping")
@@ -9,12 +10,10 @@ class TestClass13(unittest.TestCase):
 
     @unittest.skipUnless(sys.platform.startswith("win"), "require Windows")
     def test_case02(self):
-        #Window specific testing compile
+        # Window specific testing compile
         pass
 
-    @unittest.skipUnless(sys.platform.startswith("linux"),"require Linux")
+    @unittest.skipUnless(sys.platform.startswith("linux"), "require Linux")
     def test_case03(self):
-        #Linux specific testing code 
+        # Linux specific testing code
         pass
-
-

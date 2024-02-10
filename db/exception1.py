@@ -2,10 +2,7 @@
 
 import MySQLdb
 
-con=MySQLdb.connect(host ='localhost',
-        user = 'xuhui',
-        passwd = 'flower',
-        db = 'employees')
+con = MySQLdb.connect(host="localhost", user="xuhui", passwd="flower", db="employees")
 
 cur = con.cursor()
 
@@ -19,6 +16,3 @@ except MySQLdb.Error:
     print("An error has been passed.")
 finally:
     con.close()
-    
-
-

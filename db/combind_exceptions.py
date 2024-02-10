@@ -1,18 +1,15 @@
 #!/usr/bin/python
-import MySQLdb,sys
-con = MySQLdb.connect(host = 'localhost',
-        user = 'xuhui',
-        passwd = 'flower',
-        db = 'employees')
+import MySQLdb, sys
+
+con = MySQLdb.connect(host="localhost", user="xuhui", passwd="flower", db="employees")
 
 cur = con.cursor()
 identifier = sys.argv[1]
-statement = """select * from employees where id=%s""" %(identifier)
+statement = """select * from employees where id=%s""" % (identifier)
 
 try:
     cur.execute(statement)
-    results=cur.fetchall()
+    results = cur.fetchall()
     print(results)
-except(MySQLdb.OperationalError,MySQLdb.ProgrammingError) as e:
-    raise(e)
-
+except (MySQLdb.OperationalError, MySQLdb.ProgrammingError) as e:
+    raise (e)

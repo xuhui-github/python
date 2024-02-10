@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 
 import sys
-lines=sys.stdin.readlines()
+
+lines = sys.stdin.readlines()
 lines.sort()
 for line in lines:
-    #print line,
-    print(line,end='')
-
+    # print line,
+    print(line, end="")

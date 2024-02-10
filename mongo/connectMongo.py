@@ -7,7 +7,7 @@ from pymongo.collection import Collection
 def main():
     """Connect to MongoDB"""
     try:
-        client =MongoClient("localhost",27017)
+        client = MongoClient("localhost", 27017)
 
         print("Connected successfully")
     except:
@@ -15,6 +15,6 @@ def main():
 
         sys.exit(1)
 
-if __name__ == '__main__':
-    main()
 
+if __name__ == "__main__":
+    main()

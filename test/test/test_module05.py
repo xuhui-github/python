@@ -1,12 +1,15 @@
 import unittest
 
+
 def setUpModule():
     """called once,before anything else in this module"""
     print("In setUpModule()...")
 
+
 def tearDownModule():
     """called once,after anything else in this module"""
     print("In tearDownModule()...")
+
 
 class TestClass06(unittest.TestCase):
     @classmethod
@@ -35,7 +38,6 @@ class TestClass06(unittest.TestCase):
         self.assertFalse("python".isupper())
         print("In test_case02()")
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     unittest.main()
-
-

@@ -1,10 +1,12 @@
+class MyError(Exception):
+    pass
 
-class MyError(Exception): pass
 
 def stuff(file):
     raise MyError()
 
-file=open('data','w')
+
+file = open("data", "w")
 try:
     stuff(file)
 except MyError:

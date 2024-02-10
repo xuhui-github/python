@@ -4,10 +4,11 @@ from sqlalchemy import Connection
 from sqlalchemyUse import cookies
 from sqlalchemyUse import engine
 from sqlalchemyUse import customer
+
 connection = Connection(engine)
-u = update(cookies).where(cookies.c.cookie_name == 'chocolate chip')
+u = update(cookies).where(cookies.c.cookie_name == "chocolate chip")
 u = u.values(quantity=(cookies.c.quantity + 120))
-print("u= **********************",u)
+print("u= **********************", u)
 result = connection.execute(u)
 print(result.rowcount)
 

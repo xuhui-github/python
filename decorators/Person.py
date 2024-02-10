@@ -6,23 +6,21 @@ class Person(object):
         self.firstname = firstname
         self.lastname = lastname
 
-
     @property
     def full_name(self):
         """
         Return the full name
         """
-        return "%s %s" %(self.firstname, self.lastname)
+        return "%s %s" % (self.firstname, self.lastname)
 
 
-if __name__ == '__main__':
-    person = Person('Mike', 'Driscoll')
+if __name__ == "__main__":
+    person = Person("Mike", "Driscoll")
     print(person.full_name)
     print(person.firstname)
     print(person.lastname)
 
     """person.full_name = 'Jackalope'"""
 
-    person.firstname = 'Dan'
+    person.firstname = "Dan"
     print(person.full_name)
-    

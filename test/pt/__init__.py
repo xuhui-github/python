@@ -1,2 +1,1 @@
-all=["test_module01","test_module02"]
-
+all = ["test_module01", "test_module02"]

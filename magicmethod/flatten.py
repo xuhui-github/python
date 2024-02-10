@@ -6,6 +6,5 @@ def flatten(nested):
     except TypeError:
         yield nested
 
-print(list(flatten([[[1],2],3,4,[5,[6,7]],8])))
 
-  
+print(list(flatten([[[1], 2], 3, 4, [5, [6, 7]], 8])))

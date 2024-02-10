@@ -1,7 +1,6 @@
-X=99
+X = 99
+
 
 def setX(new):
     global X
-    X=new
-
-
+    X = new

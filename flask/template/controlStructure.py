@@ -1,4 +1,5 @@
 from jinja2 import Template
+
 x = """
 {% if true %} Too easy {% endif %}
 {% if true == true == true %} True and true are the same {% endif %}
@@ -12,4 +13,4 @@ x = """
 """
 print(Template(x).render())
 template = Template(x)
-#print(template.render())
+# print(template.render())

@@ -5,7 +5,7 @@ from sqlalchemy import select
 
 connection = Connection(engine)
 
-s=select(cookies).where(cookies.c.cookie_name == 'chocolate chip')
+s = select(cookies).where(cookies.c.cookie_name == "chocolate chip")
 rp = connection.execute(s)
-record =rp.first()
+record = rp.first()
 print(record)

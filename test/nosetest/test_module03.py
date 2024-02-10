@@ -1,12 +1,13 @@
 from mypackage.mymathlib import *
 
-math_obj=0
+math_obj = 0
+
 
 def setUpModule():
     """called once ,before anything else in this module"""
     print("In setUpModule()...")
     global math_obj
-    math_obj=mymathlib()
+    math_obj = mymathlib()
 
 
 def tearDownModule():
@@ -14,6 +15,7 @@ def tearDownModule():
     print("In tearDownModule()...")
     global math_obj
     del math_obj
+
 
 class TestClass02:
     @classmethod
@@ -27,7 +29,7 @@ class TestClass02:
 
     def test_case01(self):
         print("In test_case01()")
-        assert math_obj.add(2,5) == 7
+        assert math_obj.add(2, 5) == 7
 
     def test_case02(self):
         print("In test_case02()")
@@ -40,5 +42,3 @@ class TestClass02:
     def tearDownClass(cls):
         """called once,after all tests, if setUpClass() sucessful"""
         print("\nIn tearDownClass()...")
-
-

@@ -7,4 +7,3 @@ employees = schema.get_collection("employees")
 employees.drop_index("employee_name")
 print("Index employee_name has been dropped")
 session.close()
-

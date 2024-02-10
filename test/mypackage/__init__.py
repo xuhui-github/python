@@ -1,1 +1,1 @@
-all=["mymathlib","mymathsimple"]
+all = ["mymathlib", "mymathsimple"]

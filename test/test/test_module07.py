@@ -1,5 +1,6 @@
 import unittest
 
+
 class TestCase08(unittest.TestCase):
 
     def test_case01(self):
@@ -16,5 +17,3 @@ class TestCase08(unittest.TestCase):
 
     def notest(self):
         self.assertTrue(True)
-
-

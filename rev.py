@@ -4,9 +4,10 @@ def rev(theString):
     else:
         head = theString[0]
         tail = theString[1:]
-        print("head= %s" %head)
-        print("tail= %s" %tail)
-        print( "rev(tail)+head =%s" % rev(tail)+head)
+        print("head= %s" % head)
+        print("tail= %s" % tail)
+        print("rev(tail)+head =%s" % rev(tail) + head)
         return rev(tail) + head
 
-print(rev( 'hello' ))
+
+print(rev("hello"))

@@ -1,5 +1,6 @@
 import logging
 
+
 def log(func):
 
     def wrap_log(*args, **kwargs):
@@ -8,7 +9,7 @@ def log(func):
         logger.setLevel(logging.INFO)
 
         fh = logging.FileHandler("%s.log" % name)
-        fmt = '%(asctime)s - %(name)s - %(levelname)s = %(message)s'
+        fmt = "%(asctime)s - %(name)s - %(levelname)s = %(message)s"
         formatter = logging.Formatter(fmt)
         fh.setFormatter(formatter)
         logger.addHandler(fh)
@@ -17,16 +18,17 @@ def log(func):
         result = func(*args, **kwargs)
         logger.info("Result: %s" % result)
         return func
+
     return wrap_log
+
 
 @log
 def double_function(a):
     """
     Double the input parameter
     """
-    return a*2
+    return a * 2
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     value = double_function(2)
-
-

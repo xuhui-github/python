@@ -7,26 +7,25 @@ class DecoratorTest(object):
         """Constructor"""
         pass
 
-    def doubler(self,x):
+    def doubler(self, x):
         """"""
         print("running doubler")
-        return x*2
+        return x * 2
 
     @classmethod
-    def class_tripler(kclass,x):
+    def class_tripler(kclass, x):
         """"""
         print("running tripler %s" % kclass)
-        return x*3
+        return x * 3
 
     @staticmethod
     def static_quad(x):
         """"""
         print("running quard")
-        return x*4
- 
+        return x * 4
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     decor = DecoratorTest()
     print(decor.doubler(5))
     print(decor.class_tripler(3))
@@ -37,7 +36,3 @@ if __name__ == '__main__':
     print(decor.doubler)
     print(decor.class_tripler)
     print(decor.static_quad)
-
-
-
-

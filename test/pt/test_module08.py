@@ -11,8 +11,6 @@ def fixture01(request):
     print("File Path: " + str(request.fspath))
 
 
-@pytest.mark.usefixtures('fixture01')
+@pytest.mark.usefixtures("fixture01")
 def test_case01():
     print("\nI'm the test_case01")
-
-

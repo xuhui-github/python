@@ -1,5 +1,6 @@
 from decimal import Decimal
 
+
 class Fees(object):
 
     def __init__(self):
@@ -16,11 +17,11 @@ class Fees(object):
 
     fee = property(get_fee, set_fee)
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     f = Fees()
     f.set_fee("1")
     print(f.fee)
 
     f.fee = "2"
     print(f.get_fee())
-

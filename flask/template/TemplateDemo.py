@@ -1,5 +1,6 @@
 from jinja2 import Template
-x="""
+
+x = """
 <p>Uncle Scrooge nephews</p>
 <ul>
 {% for i in my_list %}
@@ -7,5 +8,5 @@ x="""
 {% endfor %}
 </ul>
 """
-template=Template(x)
-print( template.render(my_list=['Huey','Dewey','Louie']))
+template = Template(x)
+print(template.render(my_list=["Huey", "Dewey", "Louie"]))

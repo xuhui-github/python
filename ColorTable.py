@@ -1,19 +1,22 @@
 import wx
 import wx.grid
+
+
 class TestTable(wx.grid.GridTableBase):
     def __init__(self):
         wx.grid.GridTableBase.__init__(self)
-        self.data={ (1,1) : "here",
-                    (2,2) : "is",
-                    (3,3) : "some",
-                    (4,4) : "data",
-                    }
-        self.odd=wx.grid.GridCellAttr()
+        self.data = {
+            (1, 1): "here",
+            (2, 2): "is",
+            (3, 3): "some",
+            (4, 4): "data",
+        }
+        self.odd = wx.grid.GridCellAttr()
         self.odd.SetBackgroundColour("sky blue")
-        self.odd.SetFont(wx.Font(10,wx.SWISS,wx.NORMAL,wx.BOLD))
-        self.even=wx.grid.GridCellAttr()
+        self.odd.SetFont(wx.Font(10, wx.SWISS, wx.NORMAL, wx.BOLD))
+        self.even = wx.grid.GridCellAttr()
         self.even.SetBackgroundColour("sea green")
-        self.even.SetFont(wx.Font(10,wx.SWISS,wx.NORMAL,wx.BOLD))
+        self.even.SetFont(wx.Font(10, wx.SWISS, wx.NORMAL, wx.BOLD))
 
     def GetNumberRows(self):
         return 50
@@ -21,32 +24,34 @@ class TestTable(wx.grid.GridTableBase):
     def GetNumberCols(self):
         return 50
 
-    def isEmptyCell(self,row,col):
-        return self.data.get((row,col)) is not None
+    def isEmptyCell(self, row, col):
+        return self.data.get((row, col)) is not None
 
-    def GetValue(self,row,col):
-        value = self.data.get((row,col))
+    def GetValue(self, row, col):
+        value = self.data.get((row, col))
         if value is None:
-            return ''
+            return ""
         else:
             return value
 
-    def SetValue(self,row,col,value):
-        self.data[(row,col)]=value
+    def SetValue(self, row, col, value):
+        self.data[(row, col)] = value
 
-    def GetAttr(self,row,col,kind):
-        attr=[self.even,self.odd][row %2]
+    def GetAttr(self, row, col, kind):
+        attr = [self.even, self.odd][row % 2]
         attr.IncRef()
         return attr
 
+
 class TestFrame(wx.Frame):
     def __init__(self):
-        wx.Frame.__init__(self,None,title="Grid Table",size=(640,480))
-        grid=wx.grid.Grid(self)
-        table=TestTable()
-        grid.SetTable(table,True)
-app=wx.App()
-frame=TestFrame()
+        wx.Frame.__init__(self, None, title="Grid Table", size=(640, 480))
+        grid = wx.grid.Grid(self)
+        table = TestTable()
+        grid.SetTable(table, True)
+
+
+app = wx.App()
+frame = TestFrame()
 frame.Show()
 app.MainLoop()
-
