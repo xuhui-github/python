@@ -1,6 +1,7 @@
+#!/usr/local/bin/python
+
 class MyError(Exception):
     pass
-
 
 def stuff(file):
     raise MyError()

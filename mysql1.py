@@ -1,7 +1,12 @@
-import MysqlDB;
-os.listdir
-os.listdir(".")
-import unittest.
+import MySQLdb
+import os
+import socket
+
+print('hello from python.')
+
+
+
+
 
 
 

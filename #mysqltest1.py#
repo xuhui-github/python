@@ -1,5 +1,6 @@
-\import MySQLdb
+import MySQLdb
 import mysqlx
+import os
 
 con = MySQLdb.connect("localhost", "xuhui", "flower", "employees")
 cur = con.cursor()
