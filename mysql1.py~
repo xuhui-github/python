@@ -1,4 +1,0 @@
-import os
-import MysqlDB;
-os.listdir
-os.listdir(".)
