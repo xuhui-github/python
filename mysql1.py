@@ -1,9 +1,11 @@
+
+
 import MySQLdb
 import os
 import socket
-n
+import os
 print('hello from python.')
-
+print(
 
 
 
